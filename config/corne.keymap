@@ -58,7 +58,6 @@
             bindings = <&kp>, <&tog>;
 
             #binding-cells = <2>;
-            hold-while-undecided;
             tapping-term-ms = <200>;
         };
     };
