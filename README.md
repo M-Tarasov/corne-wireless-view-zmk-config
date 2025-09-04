@@ -19,3 +19,7 @@ cp left/zephyr/zmk.uf2 corne-left.uf2
 west build -s zmk/app -d /workspaces/zmk-config/right -b nice_nano_v2 -- -DZMK_CONFIG=/workspaces/zmk-config/config -DSHIELD="corne_right nice_view_adapter nice_view"
 cp right/zephyr/zmk.uf2 corne-right.uf2
 ```
+
+## UHK 60
+https://keymap-drawer.streamlit.app - Keymap Drawer
+https://nickcoutsos.github.io/keymap-layout-tools/ - physical layout

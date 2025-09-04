@@ -6,3 +6,4 @@ zmk
 corne-*.uf2
 modules
 zmk-locales
+.venv
