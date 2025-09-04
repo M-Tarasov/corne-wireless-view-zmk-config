@@ -136,6 +136,7 @@ parse_config:
     A_UMLAUT: Ä
     O_UMLAUT: Ö
     U_UMLAUT: Ü
+    ESZET: ß
     EXCLAMATION: '!'
     EXCL: '!'
     AT_SIGN: '@'
