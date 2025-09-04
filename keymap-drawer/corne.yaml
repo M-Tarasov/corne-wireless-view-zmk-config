@@ -98,7 +98,7 @@ layers:
   - ']'
   - {t: ▽, type: trans}
   - '='
-  - ESZETT
+  - ß
   - LSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
