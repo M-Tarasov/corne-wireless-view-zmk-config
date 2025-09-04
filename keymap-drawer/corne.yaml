@@ -94,21 +94,21 @@ layers:
   - Sft+4
   - Sft+5
   - Sft+6
-  - AltGr+8
-  - AltGr+9
+  - '['
+  - ']'
   - {t: ▽, type: trans}
-  - Sft+0
-  - '-'
+  - '='
+  - ESZETT
   - LSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '|'
-  - Sft+8
-  - Sft+9
-  - Sft+|
+  - <
+  - (
+  - )
+  - '>'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - AltGr+|
@@ -118,10 +118,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - AltGr+7
-  - AltGr+0
+  - '{'
+  - '}'
   - {t: ▽, type: trans}
-  - Sft+7
+  - /
   - {t: ▽, type: trans}
   - LGUI
   - {t: ▽, type: trans}
