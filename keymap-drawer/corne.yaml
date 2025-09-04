@@ -7,12 +7,12 @@ layers:
   - E
   - R
   - {t: T, h: NumPad}
-  - ' Z'
+  - Z
   - U
   - I
   - O
   - P
-  - ' U UMLAUT'
+  - Ü
   - {t: CAPS, h: Fx - Num}
   - A
   - S
@@ -23,10 +23,10 @@ layers:
   - {t: J, h: RSHFT}
   - K
   - L
-  - ' O UMLAUT'
-  - ' A UMLAUT'
+  - Ö
+  - Ä
   - LCTRL
-  - ' Y'
+  - Y
   - X
   - C
   - V
@@ -227,7 +227,7 @@ layers:
   - UP
   - END
   - {t: ▽, type: trans}
-  - L
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+Ctl+LEFT
