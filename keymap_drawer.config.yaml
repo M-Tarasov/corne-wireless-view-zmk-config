@@ -133,6 +133,9 @@ parse_config:
     QUES: '?'
   zmk_remove_keycode_prefix: [ "DE" ]
   zmk_keycode_map:
+    A_UMLAUT: Ä
+    O_UMLAUT: Ö
+    U_UMLAUT: Ü
     EXCLAMATION: '!'
     EXCL: '!'
     AT_SIGN: '@'
