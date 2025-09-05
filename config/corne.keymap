@@ -116,12 +116,15 @@
         cmb_backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <10 11>;
+            slow-release;
             layers = <0>;
         };
 
         cmb_enter {
             bindings = <&kp ENTER>;
             key-positions = <22 23>;
+            slow-release;
+            layers = <0>;
         };
     };
 
