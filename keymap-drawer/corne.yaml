@@ -41,7 +41,7 @@ layers:
   - {t: Mouse, h: Fx - Num}
   - {t: '$$mdi:keyboard-space$$', h: Nav}
   - $$mdi:keyboard-space$$
-  - Raise DE
+  - {t: '$$mdi:backspace-outline$$', h: Raise DE}
   - RET
   Fx - Num:
   - ESC
