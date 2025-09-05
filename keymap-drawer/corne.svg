@@ -315,7 +315,7 @@ path.combo { stroke: #7f7f7f; }
 </a></g>
 <g transform="translate(489, 224) rotate(-30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:backspace-outline"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-space"/>
 </g>
 <g transform="translate(554, 213) rotate(-15.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -327,6 +327,18 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">RET</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="36" width="28" height="26" class="combo"/>
+<text x="56" y="49" class="combo tap">ESC</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="770" y="36" width="28" height="26" class="combo"/>
+<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="777" y="42" height="14" width="14.0" class="combo tap glyph mdi:backspace-outline"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="770" y="92" width="28" height="26" class="combo"/>
+<text x="784" y="105" class="combo tap">ENTER</text>
 </g>
 </g>
 </g>
@@ -502,6 +514,10 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="770" y="92" width="28" height="26" class="combo"/>
+<text x="784" y="105" class="combo tap">ENTER</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 661)" class="layer-Raise DE">
@@ -673,6 +689,10 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">RALT</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="770" y="92" width="28" height="26" class="combo"/>
+<text x="784" y="105" class="combo tap">ENTER</text>
 </g>
 </g>
 </g>
@@ -876,6 +896,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="0" class="key tap">
 <tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">RCLK</tspan>
 </text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="770" y="92" width="28" height="26" class="combo"/>
+<text x="784" y="105" class="combo tap">ENTER</text>
 </g>
 </g>
 </g>
@@ -1081,6 +1105,10 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="0" dy="-0.6em">KP</tspan><tspan x="0" dy="1.2em">DOT</tspan>
 </text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="770" y="92" width="28" height="26" class="combo"/>
+<text x="784" y="105" class="combo tap">ENTER</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1653)" class="layer-Nav">
@@ -1269,6 +1297,10 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="770" y="92" width="28" height="26" class="combo"/>
+<text x="784" y="105" class="combo tap">ENTER</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1984)" class="layer-Hardware">
@@ -1414,6 +1446,10 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="770" y="92" width="28" height="26" class="combo"/>
+<text x="784" y="105" class="combo tap">ENTER</text>
 </g>
 </g>
 </g>

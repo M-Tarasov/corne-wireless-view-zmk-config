@@ -40,7 +40,7 @@ layers:
   - LGUI
   - {t: Mouse, h: Fx - Num}
   - {t: '$$mdi:keyboard-space$$', h: Nav}
-  - $$mdi:backspace-outline$$
+  - $$mdi:keyboard-space$$
   - Raise DE
   - RET
   Fx - Num:
@@ -301,3 +301,12 @@ layers:
   - ''
   - ''
   - ''
+combos:
+- p: [0, 1]
+  k: ESC
+  l: [QWERTY]
+- p: [10, 11]
+  k: $$mdi:backspace-outline$$
+  l: [QWERTY]
+- p: [22, 23]
+  k: ENTER
