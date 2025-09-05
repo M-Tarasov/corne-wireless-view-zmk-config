@@ -22,4 +22,7 @@ cp right/zephyr/zmk.uf2 corne-right.uf2
 
 ## UHK 60
 https://keymap-drawer.streamlit.app - Keymap Drawer
+
 https://nickcoutsos.github.io/keymap-layout-tools/ - physical layout
+
+https://nickcoutsos.github.io/keymap-editor/ - ZMK keymap editor
