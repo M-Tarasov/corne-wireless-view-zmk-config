@@ -5,7 +5,6 @@
  */
 
 #include "keys_de.h"
-#include "keys_ru.h"
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
@@ -188,9 +187,9 @@
             display-name = "Nav";
             bindings = <
 &kp ESCAPE  &trans  &kp RC(PAGE_UP)      &kp LC(T)    &kp LC(PAGE_DOWN)      &trans    &kp PG_UP  &kp HOME  &kp UP    &kp END    &kp INS  &kp DEL
-&trans      &trans  &kp LA(LC(LEFT))     &kp LA(TAB)  &kp LA(LC(RIGHT))      &trans    &trans     &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &trans
+&trans      &trans  &trans               &trans       &kp LSHFT              &trans    &trans     &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &trans
 &trans      &trans  &kp LS(LC(PAGE_UP))  &kp LC(W)    &kp LS(LC(PAGE_DOWN))  &trans    &kp PG_DN  &trans    &trans    &trans     &trans   &trans
-                                         &trans       &trans                 &trans    &trans     &trans    &trans
+                                         &trans       &kp LALT                 &trans    &trans     &trans    &trans
             >;
         };
 
