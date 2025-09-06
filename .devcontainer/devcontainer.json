@@ -22,7 +22,7 @@
       }
     }
   },
-  "remoteUser": "builder",
+  "remoteUser": "ubuntu",
   "updateRemoteUserUID": true,
   "forwardPorts": [
     3000

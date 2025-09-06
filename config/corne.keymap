@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include <locale/keys_de.h>
+#include "keys_de.h"
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
@@ -64,7 +64,7 @@
 
         hml: hml {
             compatible = "zmk,behavior-hold-tap";
-            label = "Home Mod Left";
+            display-name = "Home Mod Left";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -78,7 +78,7 @@
 
         hmr: hmr {
             compatible = "zmk,behavior-hold-tap";
-            label = "Home Mod Right";
+            display-name = "Home Mod Right";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -92,7 +92,7 @@
 
         hlt: hlt {
             compatible = "zmk,behavior-hold-tap";
-            label = "Home layer tap";
+            display-name = "Home layer tap";
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
