@@ -230,9 +230,9 @@ layers:
   - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+Ctl+LEFT
-  - Alt+TAB
-  - Alt+Ctl+RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
@@ -253,7 +253,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LALT
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
