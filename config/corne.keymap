@@ -154,10 +154,10 @@
         raise_layer {
             display-name = "Raise DE";
             bindings = <
-&kp LS(DE_CARET)  &kp LS(N1)  &kp LS(N2)     &kp LS(N3)   &kp LS(N4)            &kp LS(N5)      &kp LS(N6)        &kp LS(N7)     &kp LS(N8)           &kp LS(N9)        &kp LS(N0)    &kp DE_QMARK
-&trans            &kp DE_AT   &kp DE_ESZETT  &kp DE_EURO  &kp DE_DOUBLE_QUOTES  &kp DE_SQT      &kp DE_LBRC       &kp DE_RBRC    &kp DE_LBKT          &kp DE_RBKT       &kp DE_TILDE  &kp DE_HASH
-&trans            &trans      &trans         &trans       &kp DE_GRAVE          &kp DE_ACUTE    &kp DE_LESS_THAN  &kp DE_MINUS   &kp DE_GREATER_THAN  &kp DE_BACKSLASH  &kp DE_PIPE   &kp DE_SLASH
-                                             &trans       &trans                &trans          &trans            &kp BACKSPACE  &kp DELETE
+&kp LS(DE_CARET)  &kp LS(N1)   &kp LS(N2)     &kp LS(N3)    &kp LS(N4)            &kp LS(N5)      &kp LS(N6)        &kp LS(N7)     &kp LS(N8)           &kp LS(N9)        &kp LS(N0)    &kp DE_QMARK
+&trans            &kp DE_AT    &kp DE_ESZETT  &kp DE_EURO   &kp DE_DOUBLE_QUOTES  &kp DE_SQT      &kp DE_LBRC       &kp DE_RBRC    &kp DE_LBKT          &kp DE_RBKT       &kp DE_TILDE  &kp DE_HASH
+&trans            &kp DE_PIPE  &kp DE_PLUS    &kp DE_MINUS  &kp DE_GRAVE          &kp DE_ACUTE    &kp DE_LESS_THAN  &kp DE_MINUS   &kp DE_GREATER_THAN  &kp DE_BACKSLASH  &kp DE_STAR   &kp DE_SLASH
+                                              &trans        &trans                &trans          &trans            &kp BACKSPACE  &kp DELETE
             >;
         };
 
@@ -186,10 +186,10 @@
         nav {
             display-name = "Nav";
             bindings = <
-&kp ESCAPE  &trans  &kp RC(PAGE_UP)      &kp LC(T)    &kp LC(PAGE_DOWN)      &trans    &kp PG_UP  &kp HOME  &kp UP    &kp END    &kp INS  &kp DEL
-&trans      &trans  &trans               &trans       &kp LSHFT              &trans    &trans     &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &trans
-&trans      &trans  &kp LS(LC(PAGE_UP))  &kp LC(W)    &kp LS(LC(PAGE_DOWN))  &trans    &kp PG_DN  &trans    &trans    &trans     &trans   &trans
-                                         &trans       &kp LALT                 &trans    &trans     &trans    &trans
+&kp ESCAPE  &trans  &kp RC(PAGE_UP)      &kp LC(T)  &kp LC(PAGE_DOWN)      &trans    &kp PG_UP  &kp HOME  &kp UP    &kp END    &kp INS  &kp DEL
+&trans      &trans  &trans               &trans     &kp LSHFT              &trans    &trans     &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &trans
+&trans      &trans  &kp LS(LC(PAGE_UP))  &kp LC(W)  &kp LS(LC(PAGE_DOWN))  &trans    &kp PG_DN  &trans    &trans    &trans     &trans   &trans
+                                         &trans     &kp LALT               &trans    &trans     &trans    &trans
             >;
         };
 
