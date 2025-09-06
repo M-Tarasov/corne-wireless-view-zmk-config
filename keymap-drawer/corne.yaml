@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   QWERTY:
-  - TAB
+  - {t: TAB, h: Hardware}
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - Ü
-  - {t: CAPS, h: Fx - Num}
+  - Alt+LSHFT
   - A
   - S
   - D
@@ -35,28 +35,16 @@ layers:
   - M
   - ','
   - .
-  - /
-  - ']'
+  - '-'
+  - +
   - LGUI
-  - {t: Mouse, h: Fx - Num}
-  - {t: '$$mdi:keyboard-space$$', h: Nav}
+  - {t: '$$mdi:keyboard-space$$', h: Fx - Num}
+  - {t: Mouse, h: Nav}
+  - Raise DE
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace-outline$$', h: Raise DE}
   - RET
   Fx - Num:
-  - ESC
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - {t: LSHFT, type: held}
+  - ^
   - '1'
   - '2'
   - '3'
@@ -67,9 +55,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '-'
-  - {t: ▽, type: trans}
-  - '|'
+  - ß
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -79,58 +65,72 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Hardware
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RSHFT
   - {t: ▽, type: trans}
   Raise DE:
-  - ESC
+  - Sft+^
   - Sft+1
   - Sft+2
   - Sft+3
   - Sft+4
   - Sft+5
   - Sft+6
-  - '['
-  - ']'
+  - Sft+7
+  - Sft+8
+  - Sft+9
+  - Sft+0
+  - '?'
   - {t: ▽, type: trans}
-  - '='
+  - '@'
   - ß
-  - LSHFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - <
-  - (
-  - )
-  - '>'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - AltGr+|
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - EURO
+  - '"'
+  - ''''
   - '{'
   - '}'
+  - '['
+  - ']'
+  - '~'
+  - '#'
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '`'
+  - ACUTE
+  - <
+  - '-'
+  - '>'
+  - \
+  - '|'
   - /
   - {t: ▽, type: trans}
-  - LGUI
   - {t: ▽, type: trans}
-  - $$mdi:keyboard-space$$
-  - RET
+  - {t: ▽, type: trans}
   - {type: held}
-  - RALT
+  - $$mdi:backspace-outline$$
+  - DELETE
   Mouse:
-  - ESC
+  - {t: ESCAPE, h: Hardware}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -226,7 +226,7 @@ layers:
   - HOME
   - UP
   - END
-  - {t: ▽, type: trans}
+  - INS
   - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -259,48 +259,48 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Hardware:
-  - '&bootloader'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&bootloader'
-  - {t: BT CLR, type: held}
+  - {type: held}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - ''
+  - CAPS
+  - ''
+  - L
+  - Sft+ESCAPE
+  - DELETE
+  - Alt+LCTRL
   - ''
   - ''
   - ''
   - ''
+  - '&bootloader'
+  - '&bootloader'
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - ''
+  - $$mdi:backspace-outline$$
+  - LCTRL
+  - LGUI
+  - LALT
+  - RALT
+  - RGUI
+  - RCTRL
 combos:
 - p: [0, 1]
   k: ESC
