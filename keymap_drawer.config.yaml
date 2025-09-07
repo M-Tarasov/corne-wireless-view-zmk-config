@@ -38,7 +38,7 @@ draw_config:
   glyphs: {}
 parse_config:
   preprocess: true
-  skip_binding_parsing: false
+  skip_binding_parsing: true
   raw_binding_map: {}
   sticky_label: sticky
   toggle_label: toggle
