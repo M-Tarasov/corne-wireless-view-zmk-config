@@ -41,8 +41,8 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: Fx - Num}
   - {t: Mouse, h: Nav}
   - Raise DE
+  - {t: '$$mdi:keyboard-space$$', h: Raise DE}
   - $$mdi:keyboard-space$$
-  - RET
   Fx - Num:
   - ^
   - '1'
@@ -83,9 +83,9 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ENTER
   - RSHFT
-  - {t: ▽, type: trans}
+  - BSPC
   Raise DE:
   - Sft+^
   - Sft+1
