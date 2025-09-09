@@ -27,14 +27,14 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "TD_MOUSE";
             #binding-cells = <0>;
-            bindings = <&none>, <&to 2>;
+            bindings = <&none>, <&to 3>;
         };
 
         td_l1_mouse: td_l1_mouse {
             compatible = "zmk,behavior-tap-dance";
             display-name = "TD_L1_MOUSE";
             #binding-cells = <0>;
-            bindings = <&mo 0>, <&to 2>;
+            bindings = <&mo 0>, <&to 3>;
         };
 
         ml_tog: behavior_mo_layer_tog_layer {
@@ -138,8 +138,19 @@
 &hlt 6 TAB     &kp Q     &kp W  &kp E     &kp R         &hlt 4 T       &kp DE_Z  &kp U         &kp I         &kp O       &kp P            &kp DE_U_UMLAUT
 &kp LA(LSHFT)  &kp A     &kp S  &kp D     &hml LSHFT F  &kp G          &kp H     &hmr RSHFT J  &kp K         &kp L       &kp DE_O_UMLAUT  &kp DE_A_UMLAUT
 &kp LCTRL      &kp DE_Y  &kp X  &kp C     &kp V         &kp B          &kp N     &kp M         &kp DE_COMMA  &kp DE_DOT  &kp DE_MINUS     &kp DE_PLUS
-                                &kp LGUI  &hlt 1 SPACE  &ml_tog 5 3    &mo 2     &hlt 2 SPACE  &kp SPACE
+                                &kp LGUI  &hlt 2 SPACE  &ml_tog 5 1    &mo 3     &hlt 3 SPACE  &kp SPACE
             >;
+        };
+
+        mouse {
+            bindings = <
+&hlt 6 ESCAPE  &trans  &trans     &trans     &trans     &trans    &msc SCRL_LEFT   &msc SCRL_UP    &mmv MOVE_UP    &trans           &kp PRINTSCREEN  &kp BACKSPACE
+&kp LSHFT      &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans    &trans           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans           &kp ENTER
+&trans         &trans  &trans     &trans     &trans     &trans    &msc SCRL_RIGHT  &msc SCRL_DOWN  &trans          &trans           &trans           &trans
+                                  &trans     &trans     &trans    &mkp LCLK        &mkp MCLK       &mkp RCLK
+            >;
+
+            display-name = "Mouse";
         };
 
         f_num {
@@ -160,17 +171,6 @@
 &trans            &kp DE_PIPE  &kp DE_PLUS    &kp DE_MINUS  &kp DE_GRAVE          &kp DE_ACUTE    &kp DE_LESS_THAN  &kp DE_MINUS   &kp DE_GREATER_THAN  &kp DE_BACKSLASH  &kp DE_STAR   &kp DE_SLASH
                                               &trans        &trans                &trans          &trans            &kp BACKSPACE  &kp DELETE
             >;
-        };
-
-        mouse {
-            bindings = <
-&hlt 6 ESCAPE  &trans  &trans     &trans     &trans     &trans    &msc SCRL_LEFT   &msc SCRL_UP    &mmv MOVE_UP    &trans           &kp PRINTSCREEN  &kp BACKSPACE
-&kp LSHFT      &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans    &trans           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans           &kp ENTER
-&trans         &trans  &trans     &trans     &trans     &trans    &msc SCRL_RIGHT  &msc SCRL_DOWN  &trans          &trans           &trans           &trans
-                                  &trans     &trans     &trans    &mkp LCLK        &mkp MCLK       &mkp RCLK
-            >;
-
-            display-name = "Mouse";
         };
 
         numpad {
