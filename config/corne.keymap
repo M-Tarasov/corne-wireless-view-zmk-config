@@ -138,17 +138,17 @@
 &hlt 6 TAB     &kp Q     &kp W  &kp E     &kp R         &hlt 4 T       &kp DE_Z  &kp U         &kp I         &kp O       &kp P            &kp DE_U_UMLAUT
 &kp LA(LSHFT)  &kp A     &kp S  &kp D     &hml LSHFT F  &kp G          &kp H     &hmr RSHFT J  &kp K         &kp L       &kp DE_O_UMLAUT  &kp DE_A_UMLAUT
 &kp LCTRL      &kp DE_Y  &kp X  &kp C     &kp V         &kp B          &kp N     &kp M         &kp DE_COMMA  &kp DE_DOT  &kp DE_MINUS     &kp DE_PLUS
-                                &kp LGUI  &hlt 1 SPACE  &ml_tog 5 3    &mo 2     &kp SPACE     &kp RET
+                                &kp LGUI  &hlt 1 SPACE  &ml_tog 5 3    &mo 2     &hlt 2 SPACE  &kp SPACE
             >;
         };
 
         f_num {
             display-name = "Fx - Num";
             bindings = <
-&kp DE_CARET  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7     &kp N8  &kp N9  &kp N0  &kp DE_ESZETT
-&trans        &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans
-&trans        &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans
-                              &trans  &trans  &trans    &trans  &kp RSHFT  &trans
+&kp DE_CARET  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6     &kp N7     &kp N8    &kp N9  &kp N0  &kp DE_ESZETT
+&trans        &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans    &trans  &trans  &trans
+&trans        &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans    &trans  &trans  &trans
+                              &trans  &trans  &trans    &kp ENTER  &kp RSHFT  &kp BSPC
             >;
         };
 
@@ -164,10 +164,10 @@
 
         mouse {
             bindings = <
-&hlt 6 ESCAPE  &trans  &trans     &trans     &trans            &trans    &msc SCRL_LEFT   &msc SCRL_UP    &mmv MOVE_UP    &trans           &kp PRINTSCREEN  &kp BACKSPACE
-&kp LSHFT      &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK         &trans    &trans           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans           &kp ENTER
-&trans         &trans  &trans     &trans     &trans            &trans    &msc SCRL_RIGHT  &msc SCRL_DOWN  &trans          &trans           &trans           &trans
-                                  &trans     &trans  &trans    &mkp LCLK        &mkp MCLK       &mkp RCLK
+&hlt 6 ESCAPE  &trans  &trans     &trans     &trans     &trans    &msc SCRL_LEFT   &msc SCRL_UP    &mmv MOVE_UP    &trans           &kp PRINTSCREEN  &kp BACKSPACE
+&kp LSHFT      &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans    &trans           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans           &kp ENTER
+&trans         &trans  &trans     &trans     &trans     &trans    &msc SCRL_RIGHT  &msc SCRL_DOWN  &trans          &trans           &trans           &trans
+                                  &trans     &trans     &trans    &mkp LCLK        &mkp MCLK       &mkp RCLK
             >;
 
             display-name = "Mouse";
