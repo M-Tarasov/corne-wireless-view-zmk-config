@@ -15,10 +15,11 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "ms-vscode.cpptools"
+        "ms-vscode.cpptools",
+        "plorefice.devicetree"
       ],
       "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash"
+        "terminal.integrated.shell.linux": "/usr/bin/bash"
       }
     }
   },
