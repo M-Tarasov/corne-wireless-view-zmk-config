@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - Ü
-  - Alt+$$mdi:apple-keyboard-shift$$
+  - '&alt_shift'
   - A
   - S
   - D
