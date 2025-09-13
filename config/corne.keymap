@@ -111,10 +111,9 @@
             display-name = "Alt+Shift";
             #binding-cells = <0>;
             bindings 
-                = <&macro_press &kp LEFTALT>
-                , <&macro_press &kp LEFTSHIFT>
-                , <&macro_release &kp LEFTSHIFT>
-                , <&macro_release &kp LEFTALT>;
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp LSHIFT>
+                , <&macro_release &kp LALT>;
         };
     };
 
