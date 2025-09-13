@@ -103,7 +103,9 @@
             require-prior-idle-ms = <150>;
             flavor = "balanced";
         };
+    };
 
+    macros {
         alt_shift: alt_shift {
             compatible = "zmk,behavior-macro";
             display-name = "Alt+Shift";
