@@ -108,12 +108,11 @@
             compatible = "zmk,behavior-macro";
             display-name = "Alt+Shift";
             #binding-cells = <0>;
-            bindings = <
-                &macro_press &kp LEFTALT
-                &macro_press &kp LEFTSHIFT
-                &macro_release &kp LEFTSHIFT
-                &macro_release &kp LEFTALT
-            >;
+            bindings 
+                = <&macro_press &kp LEFTALT>
+                , <&macro_press &kp LEFTSHIFT>
+                , <&macro_release &kp LEFTSHIFT>
+                , <&macro_release &kp LEFTALT>;
         };
     };
 
