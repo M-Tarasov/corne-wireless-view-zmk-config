@@ -40,9 +40,9 @@ layers:
   - $$mdi:microsoft-windows$$
   - {t: '$$mdi:keyboard-space$$', h: Fx - Num}
   - {t: Mouse, h: Nav}
-  - Raise DE
+  - {t: ↵, h: Raise DE}
   - {t: '$$mdi:keyboard-space$$', h: Raise DE}
-  - $$mdi:keyboard-space$$
+  - $$mdi:backspace-outline$$
   Mouse:
   - {t: ESC, h: Hardware}
   - {t: ▽, type: trans}
@@ -304,10 +304,7 @@ layers:
 combos:
 - p: [0, 1]
   k: ESC
-  l: [QWERTY]
 - p: [10, 11]
   k: $$mdi:backspace-outline$$
-  l: [QWERTY]
 - p: [22, 23]
   k: ↵
-  l: [QWERTY]

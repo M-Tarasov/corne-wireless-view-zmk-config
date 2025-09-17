@@ -384,10 +384,9 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(489, 224) rotate(-30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-38" width="40" height="68" class="key"/>
+<text x="0" y="-4" class="key tap">↵</text>
 <a href="#Raise-DE">
-<text x="0" y="-4" class="key tap layer-activator">
-<tspan x="0" dy="-0.6em">Raise</tspan><tspan x="0" dy="1.2em">DE</tspan>
-</text>
+<text x="0" y="38" class="key hold layer-activator"><tspan style="font-size: 88%">Raise DE</tspan></text>
 </a></g>
 <g transform="translate(554, 213) rotate(-15.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -399,7 +398,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-7" y="-11" height="14" width="14.0" class="key tap glyph mdi:keyboard-space"/>
+<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="-7" y="-11" height="14" width="14.0" class="key tap glyph mdi:backspace-outline"/>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="42" y="36" width="28" height="26" class="combo"/>
@@ -658,6 +657,18 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">RCLK</tspan>
 </text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="36" width="28" height="26" class="combo"/>
+<text x="56" y="49" class="combo tap">ESC</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="770" y="36" width="28" height="26" class="combo"/>
+<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="777" y="42" height="14" width="14.0" class="combo tap glyph mdi:backspace-outline"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="770" y="92" width="28" height="26" class="combo"/>
+<text x="784" y="105" class="combo tap">↵</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 661)" class="layer-Fx - Num">
@@ -872,6 +883,18 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="-7" y="-11" height="14" width="14.0" class="key tap glyph mdi:backspace-outline"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="36" width="28" height="26" class="combo"/>
+<text x="56" y="49" class="combo tap">ESC</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="770" y="36" width="28" height="26" class="combo"/>
+<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="777" y="42" height="14" width="14.0" class="combo tap glyph mdi:backspace-outline"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="770" y="92" width="28" height="26" class="combo"/>
+<text x="784" y="105" class="combo tap">↵</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 992)" class="layer-Raise DE">
@@ -1085,6 +1108,18 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-7" y="-11" height="14" width="14.0" class="key tap glyph mdi:backspace-reverse-outline"/>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="36" width="28" height="26" class="combo"/>
+<text x="56" y="49" class="combo tap">ESC</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="770" y="36" width="28" height="26" class="combo"/>
+<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="777" y="42" height="14" width="14.0" class="combo tap glyph mdi:backspace-outline"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="770" y="92" width="28" height="26" class="combo"/>
+<text x="784" y="105" class="combo tap">↵</text>
 </g>
 </g>
 </g>
@@ -1301,6 +1336,18 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">,</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="36" width="28" height="26" class="combo"/>
+<text x="56" y="49" class="combo tap">ESC</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="770" y="36" width="28" height="26" class="combo"/>
+<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="777" y="42" height="14" width="14.0" class="combo tap glyph mdi:backspace-outline"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="770" y="92" width="28" height="26" class="combo"/>
+<text x="784" y="105" class="combo tap">↵</text>
 </g>
 </g>
 </g>
@@ -1524,6 +1571,18 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <text x="0" y="-4" class="key trans tap">▽</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="36" width="28" height="26" class="combo"/>
+<text x="56" y="49" class="combo tap">ESC</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="770" y="36" width="28" height="26" class="combo"/>
+<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="777" y="42" height="14" width="14.0" class="combo tap glyph mdi:backspace-outline"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="770" y="92" width="28" height="26" class="combo"/>
+<text x="784" y="105" class="combo tap">↵</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1984)" class="layer-Hardware">
@@ -1734,6 +1793,18 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">Ctrl</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="36" width="28" height="26" class="combo"/>
+<text x="56" y="49" class="combo tap">ESC</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="770" y="36" width="28" height="26" class="combo"/>
+<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="777" y="42" height="14" width="14.0" class="combo tap glyph mdi:backspace-outline"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="770" y="92" width="28" height="26" class="combo"/>
+<text x="784" y="105" class="combo tap">↵</text>
 </g>
 </g>
 </g>
