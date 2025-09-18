@@ -37,8 +37,8 @@ layers:
   - .
   - '-'
   - +
-  - {t: win, h: '$$mdi:microsoft-windows$$'}
-  - {t: '$$mdi:keyboard-space$$', h: Fx - Num}
+  - {t: Win, h: '$$mdi:microsoft-windows$$'}
+  - {t: '$$mdi:keyboard-space$$', h: Num}
   - {t: Mouse, h: Nav}
   - {t: ↵, h: Raise DE}
   - {t: '$$mdi:keyboard-space$$', h: Raise DE}
@@ -86,7 +86,7 @@ layers:
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
-  Fx - Num:
+  Num:
   - ^
   - '1'
   - '2'
@@ -301,7 +301,7 @@ layers:
   - AltGr
   - $$mdi:microsoft-windows$$
   - Ctrl
-  win:
+  Win:
   - ''
   - Win+1
   - Win+2
@@ -338,7 +338,7 @@ layers:
   - ''
   - ''
   - Ctrl
-  - {t: '$$mdi:microsoft-windows$$', type: held}
+  - {t: '$$mdi:apple-keyboard-shift$$', type: held}
   - ''
   - ''
   - ''
