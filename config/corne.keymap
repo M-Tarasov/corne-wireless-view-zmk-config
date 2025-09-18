@@ -110,7 +110,7 @@
 
         hkp_tsl: hkp_tsl {
             compatible = "zmk,behavior-hold-tap";
-            display-name = "Home Mod Right";
+            display-name = "Tap / Sticky layer";
             bindings = <&kp>, <&sl>;
 
             #binding-cells = <2>;
