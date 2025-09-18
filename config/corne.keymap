@@ -108,9 +108,17 @@
             flavor = "balanced";
         };
 
+        sll: sll {
+            compatible = "zmk,behavior-sticky-key";
+            label = "SLL";
+            bindings = <&mo>;
+            #binding-cells = <1>;
+            release-after-ms = <1000>;
+        };
+
         hkp_tsl: hkp_tsl {
             compatible = "zmk,behavior-hold-tap";
-            display-name = "Home Mod Right";
+            display-name = "Tap / Sticky layer";
             bindings = <&kp>, <&sll>;
 
             #binding-cells = <2>;
@@ -119,14 +127,6 @@
             require-prior-idle-ms = <150>;
             flavor = "balanced";
             label = "Tap / Sticky layer";
-        };
-
-        sll: sll {
-            compatible = "zmk,behavior-sticky-key";
-            label = "SLL";
-            bindings = <&mo>;
-            #binding-cells = <1>;
-            release-after-ms = <1000>;
         };
     };
 
