@@ -192,7 +192,7 @@
         };
 
         f_num {
-            display-name = "Fx - Num";
+            display-name = "Num";
             bindings = <
 &kp DE_CARET  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6     &kp N7     &kp N8    &kp N9  &kp N0  &kp DE_ESZETT
 &trans        &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans    &trans  &trans  &trans
@@ -243,11 +243,12 @@
         };
 
         win {
+            display-name = "Win";
             bindings = <
 &none      &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)    &kp LG(N6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &kp LG(N0)  &none
 &kp LSHFT  &none       &none       &none       &kp LSHFT   &none         &none       &kp RSHFT   &none       &none       &none       &kp RSHIFT
 &kp LCTRL  &none       &none       &none       &none       &none         &none       &none       &none       &none       &none       &kp RCTRL
-                                   &kp LGUI    &none       &none         &none       &none       &none
+                                   &kp LSHFT    &none       &none         &none       &none       &none
             >;
         };
     };
