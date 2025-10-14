@@ -48,7 +48,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&ctrl_click'
   - {t: ▽, type: trans}
   - '&msc SCRL_LEFT'
   - '&msc SCRL_UP'
