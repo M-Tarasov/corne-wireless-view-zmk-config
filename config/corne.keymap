@@ -143,6 +143,20 @@
                 <&macro_release>,
                 <&kp LALT>;
         };
+
+        ctrl_click: ctrl_click {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&mkp LCLK>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "CTRL_CLICK";
+        };
     };
 
     combos {
@@ -182,10 +196,10 @@
 
         mouse {
             bindings = <
-&hlt 6 ESCAPE  &trans  &trans     &trans     &trans     &trans    &msc SCRL_LEFT   &msc SCRL_UP    &mmv MOVE_UP    &trans           &kp PRINTSCREEN  &kp BACKSPACE
-&kp LSHFT      &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans    &trans           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans           &kp ENTER
-&trans         &trans  &trans     &trans     &trans     &trans    &msc SCRL_RIGHT  &msc SCRL_DOWN  &trans          &trans           &trans           &trans
-                                  &trans     &trans     &trans    &mkp LCLK        &mkp MCLK       &mkp RCLK
+&hlt 6 ESCAPE  &trans  &trans     &trans     &ctrl_click  &trans    &msc SCRL_LEFT   &msc SCRL_UP    &mmv MOVE_UP    &trans           &kp PRINTSCREEN  &kp BACKSPACE
+&kp LSHFT      &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK    &trans    &trans           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans           &kp ENTER
+&trans         &trans  &trans     &trans     &trans       &trans    &msc SCRL_RIGHT  &msc SCRL_DOWN  &trans          &trans           &trans           &trans
+                                  &trans     &trans       &trans    &mkp LCLK        &mkp MCLK       &mkp RCLK
             >;
 
             display-name = "Mouse";
