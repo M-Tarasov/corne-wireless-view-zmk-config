@@ -14,16 +14,16 @@ layers:
   - P
   - Ü
   - '&alt_shift'
-  - A
-  - S
-  - D
+  - {t: A, h: LEFT WIN}
+  - {t: S, h: Alt}
+  - {t: D, h: Ctrl}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - H
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - K
-  - L
-  - Ö
+  - {t: K, h: Ctrl}
+  - {t: L, h: AltGr}
+  - {t: Ö, h: '$$mdi:microsoft-windows$$'}
   - Ä
   - Ctrl
   - Y
@@ -127,7 +127,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - ↵
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-space$$', h: Raise DE}
   - $$mdi:backspace-outline$$
   Raise DE:
   - ⇧+^
@@ -167,7 +167,7 @@ layers:
   - '*'
   - /
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held alternate}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: '$$mdi:backspace-outline$$', type: held alternate}
