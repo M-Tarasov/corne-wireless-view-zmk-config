@@ -187,10 +187,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&hlt 6 TAB  &kp Q     &kp W  &kp E            &kp R         &hlt 4 T       &kp DE_Z      &kp U         &kp I         &kp O       &kp P            &kp DE_U_UMLAUT
-&alt_shift  &kp A     &kp S  &kp D            &hml LSHFT F  &kp G          &kp H         &hmr RSHFT J  &kp K         &kp L       &kp DE_O_UMLAUT  &kp DE_A_UMLAUT
-&kp LCTRL   &kp DE_Y  &kp X  &kp C            &kp V         &kp B          &kp N         &kp M         &kp DE_COMMA  &kp DE_DOT  &kp DE_MINUS     &kp DE_PLUS
-                             &hkp_tsl LGUI 7  &hlt 2 SPACE  &ml_tog 5 1    &hlt 3 ENTER  &hlt 3 SPACE  &kp BSPC
+&hlt 6 TAB  &kp Q            &kp W        &kp E            &kp R         &hlt 4 T       &kp DE_Z      &kp U         &kp I         &kp O        &kp P                  &kp DE_U_UMLAUT
+&alt_shift  &hml LEFT_WIN A  &hml LALT S  &hml LCTRL D     &hml LSHFT F  &kp G          &kp H         &hmr RSHFT J  &hmr RCTRL K  &hmr RALT L  &hmr RGUI DE_O_UMLAUT  &kp DE_A_UMLAUT
+&kp LCTRL   &kp DE_Y         &kp X        &kp C            &kp V         &kp B          &kp N         &kp M         &kp DE_COMMA  &kp DE_DOT   &kp DE_MINUS           &kp DE_PLUS
+                                          &hkp_tsl LGUI 7  &hlt 2 SPACE  &ml_tog 5 1    &hlt 3 ENTER  &hlt 3 SPACE  &kp BSPC
             >;
         };
 
@@ -208,10 +208,10 @@
         f_num {
             display-name = "Num";
             bindings = <
-&kp DE_CARET  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6     &kp N7     &kp N8    &kp N9  &kp N0  &kp DE_ESZETT
-&trans        &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans    &trans  &trans  &trans
-&trans        &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans    &trans  &trans  &trans
-                              &trans  &trans  &trans    &kp ENTER  &kp RSHFT  &kp BSPC
+&kp DE_CARET  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6     &kp N7        &kp N8    &kp N9  &kp N0  &kp DE_ESZETT
+&trans        &trans  &trans  &trans  &trans  &trans    &trans     &trans        &trans    &trans  &trans  &trans
+&trans        &trans  &trans  &trans  &trans  &trans    &trans     &trans        &trans    &trans  &trans  &trans
+                              &trans  &trans  &trans    &kp ENTER  &hlt 3 SPACE  &kp BSPC
             >;
         };
 
