@@ -239,10 +239,10 @@
         nav {
             display-name = "Nav";
             bindings = <
-&kp ESCAPE  &trans    &kp RC(PAGE_UP)      &kp LC(T)    &kp LC(PAGE_DOWN)      &trans    &kp PG_UP  &kp HOME  &kp UP    &kp END    &kp INS  &kp DEL
-&trans      &kp CAPS  &kp LA(LEFT)         &kp LA(TAB)  &hml LSHFT LS(RIGHT)   &trans    &trans     &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &trans
-&trans      &trans    &kp LS(LC(PAGE_UP))  &kp LC(W)    &kp LS(LC(PAGE_DOWN))  &trans    &kp PG_DN  &trans    &trans    &trans     &trans   &trans
-                                           &trans       &kp LALT               &trans    &trans     &trans    &trans
+&kp ESCAPE  &trans          &kp RC(PAGE_UP)      &kp LC(T)           &kp LC(PAGE_DOWN)      &trans    &kp PG_UP  &kp HOME  &kp UP    &kp END    &kp INS  &kp DEL
+&trans      &hml LGUI CAPS  &hml LALT LA(LEFT)   &hml LCTRL LA(TAB)  &hml LSHFT LS(RIGHT)   &trans    &trans     &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &trans
+&trans      &trans          &kp LS(LC(PAGE_UP))  &kp LC(W)           &kp LS(LC(PAGE_DOWN))  &trans    &kp PG_DN  &trans    &trans    &trans     &trans   &trans
+                                                 &trans              &kp LALT               &trans    &trans     &trans    &trans
             >;
         };
 
