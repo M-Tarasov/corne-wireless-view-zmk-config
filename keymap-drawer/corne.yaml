@@ -229,9 +229,9 @@ layers:
   - Ins
   - $$mdi:backspace-reverse-outline$$
   - {t: ▽, type: trans}
-  - $$mdi:caps-lock$$
-  - Alt+$$mdi:arrow-left-thin$$
-  - Alt+⇥
+  - {t: '$$mdi:caps-lock$$', h: '$$mdi:microsoft-windows$$'}
+  - {t: 'Alt+$$mdi:arrow-left-thin$$', h: Alt}
+  - {t: Alt+⇥, h: Ctrl}
   - {t: '⇧+$$mdi:arrow-right-thin$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
