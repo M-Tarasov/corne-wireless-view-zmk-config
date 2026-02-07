@@ -221,7 +221,7 @@ layers:
   - Ctl+PgUp
   - Ctl+T
   - Ctl+PgDn
-  - {t: ▽, type: trans}
+  - Alt
   - PgUp
   - Home
   - $$mdi:arrow-up-thin$$
@@ -233,7 +233,7 @@ layers:
   - {t: 'Alt+$$mdi:arrow-left-thin$$', h: Alt}
   - {t: Alt+⇥, h: Ctrl}
   - {t: '⇧+$$mdi:arrow-right-thin$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - $$mdi:arrow-left-thin$$
   - $$mdi:arrow-down-thin$$
@@ -245,7 +245,7 @@ layers:
   - ⇧+Ctl+PgUp
   - Ctl+W
   - ⇧+Ctl+PgDn
-  - {t: ▽, type: trans}
+  - Ctrl
   - PgDn
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
