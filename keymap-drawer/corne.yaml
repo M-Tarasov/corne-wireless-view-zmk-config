@@ -20,9 +20,9 @@ layers:
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: J, h: LSHIFT}
   - {t: K, h: Ctrl}
-  - {t: L, h: AltGr}
+  - {t: L, h: Alt}
   - {t: Ö, h: '$$mdi:microsoft-windows$$'}
   - Ä
   - Ctrl
